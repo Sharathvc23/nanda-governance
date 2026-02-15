@@ -495,6 +495,6 @@ Several directions merit investigation:
 
 8. Smirnov, N.V. (1948). "Table for estimating the goodness of fit of empirical distributions." *Annals of Mathematical Statistics*, 19(2), pp. 279–281.
 
-9. NANDA Protocol. "Network for Agent Discovery and Attestation." https://projectnanda.org
+9. NANDA Protocol. "Network of AI Agents in Decentralized Architecture." https://projectnanda.org
 
 10. Mitchell, M., Wu, S., Zaldivar, A., Barnes, P., Vasserman, L., Hutchinson, B., Spitzer, E., Raji, I.D., and Gebru, T. (2019). "Model Cards for Model Reporting." *Proceedings of the Conference on Fairness, Accountability, and Transparency (FAT\*)*, pp. 220–229.
