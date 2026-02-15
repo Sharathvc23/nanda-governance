@@ -4,10 +4,11 @@ Three-plane ML governance with cryptographic approvals for [NANDA](https://proje
 
 Enforces that no single execution path can train, approve, **and** deploy a model. Three isolated planes — Training, Governance, Serving — with Ed25519 cryptographic signatures, time-bounded approvals (90-day TTL), environment/scope constraints, M-of-N multi-approver quorum, drift detection, and revocation.
 
-## Relationship to nanda-model-integrity-layer
+## Related Packages
 
 | Package | Question it answers |
 |---------|-------------------|
+| [`model-card`](https://github.com/Sharathvc23/model-card) | "What is this model?" (unified metadata schema — type, status, risk level, metrics, weights hash) |
 | [`nanda-model-integrity-layer`](https://github.com/Sharathvc23/nanda-model-integrity-layer) | "Does this model's metadata meet policy?" (rule-based checks) |
 | `nanda-model-governance` (this package) | "Has this model been cryptographically approved for deployment?" (approval flow with signatures, quorum, scoping, revocation) |
 
