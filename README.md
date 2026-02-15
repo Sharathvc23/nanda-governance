@@ -8,7 +8,8 @@ Enforces that no single execution path can train, approve, **and** deploy a mode
 
 | Package | Question it answers |
 |---------|-------------------|
-| [`model-card`](https://github.com/Sharathvc23/model-card) | "What is this model?" (unified metadata schema — type, status, risk level, metrics, weights hash) |
+| [`nanda-model-provenance`](https://github.com/Sharathvc23/nanda-model-provenance) | "Where did this model come from?" (identity, versioning, provider, NANDA serialization) |
+| [`nanda-model-card`](https://github.com/Sharathvc23/model-card) | "What is this model?" (unified metadata schema — type, status, risk level, metrics, weights hash) |
 | [`nanda-model-integrity-layer`](https://github.com/Sharathvc23/nanda-model-integrity-layer) | "Does this model's metadata meet policy?" (rule-based checks) |
 | `nanda-model-governance` (this package) | "Has this model been cryptographically approved for deployment?" (approval flow with signatures, quorum, scoping, revocation) |
 
