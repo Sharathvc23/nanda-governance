@@ -1,6 +1,6 @@
 # nanda-model-governance
 
-Three-plane ML governance with cryptographic approvals for [NANDA](https://github.com/NANDA-ai)-compatible agent registries.
+Three-plane ML governance with cryptographic approvals for [NANDA](https://projectnanda.org)-compatible agent registries.
 
 Enforces that no single execution path can train, approve, **and** deploy a model. Three isolated planes — Training, Governance, Serving — with Ed25519 cryptographic signatures, time-bounded approvals (90-day TTL), environment/scope constraints, M-of-N multi-approver quorum, drift detection, and revocation.
 
