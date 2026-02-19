@@ -171,7 +171,7 @@ mypy nanda_governance/ --strict
 
 ## Credits
 
-Developed by [stellarminds.ai](https://stellarminds.ai), open-sourced for [projectnanda.org](https://projectnanda.org).
+Developed by [stellarminds.ai](https://stellarminds.ai), 
 
 ## License
 
