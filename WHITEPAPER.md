@@ -106,4 +106,4 @@ The drift detection system supports both distribution drift (via the custom KS s
 
 *First published: 2026-04-15 | Last modified: 2026-04-15*
 
-*[stellarminds.ai](https://stellarminds.ai) — Research Contribution to [Project NANDA](https://projectnanda.org)*
+*Personal research contributions aligned with [Project NANDA](https://projectnanda.org) standards. [Stellarminds.ai](https://stellarminds.ai)*
