@@ -97,14 +97,13 @@ The `ApprovalStore` protocol supports two backends: `InMemoryApprovalStore` (thr
 
 The drift detection system supports both distribution drift (via the custom KS statistic) and metric-based drift (configurable thresholds for loss increase, accuracy ratio, and confidence). Severity is computed on a 0.0-1.0 scale and mapped to action recommendations: monitor (< 0.3), investigate (0.3-0.8), or consider_revoke (>= 0.8).
 
-## Future Work
-
-- HSM integration via the `Signer` protocol against PKCS#11 interfaces for enterprise key management
-- Approval delegation and escalation with time-bounded delegated signing authority and automatic escalation paths
-- Cross-registry governance enabling portable approval records verifiable across NANDA registries
-- Continuous governance with approval renewal workflows that avoid full re-training
-
 ## References
 
 1. NANDA Protocol. "Network of AI Agents in Decentralized Architecture." https://projectnanda.org
 2. NIST. "Recommendation for Key Management." NIST SP 800-57. https://csrc.nist.gov/pubs/sp/800-57-pt1/r5/final
+
+---
+
+*First published: 2026-04-15 | Last modified: 2026-04-15*
+
+*[stellarminds.ai](https://stellarminds.ai) — Research Contribution to [Project NANDA](https://projectnanda.org)*
